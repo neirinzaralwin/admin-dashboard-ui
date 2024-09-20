@@ -27,7 +27,7 @@ const AnalyticsChart = () => {
           <CardDescription>Views Per Month</CardDescription>
         </CardHeader>
         <CardContent>
-          <div className="w-full h-300">
+          <div style={{ width: "100%", height: 300 }}>
             <ResponsiveContainer>
               <LineChart width={1100} height={300} data={data}>
                 <Line type="monotone" dataKey="uv" stroke="#8884d8" />
